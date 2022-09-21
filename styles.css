@@ -1,0 +1,41 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto)
+}
+.cell {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 20%;
+
+}
+.cell div {
+    color: wheat;
+    margin: 10px
+}
+label {
+    color:wheat
+}
+input {
+    margin-bottom: 20px
+}
+
