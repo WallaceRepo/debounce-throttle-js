@@ -20,7 +20,7 @@ function traverse(node) {
 
  
 
-// Debounce() function. it's used for not to trigger on every single user input to call or dave data etc, I used before.
+// Debounce() function. it's used for not to trigger network request on every single user input or to save data etc. I used it before for saving user input on json table.
  
 
 
